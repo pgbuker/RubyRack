@@ -1,6 +1,9 @@
 require_relative 'timeformat'
 
+require_relative 'timeformat'
+
 class App
+  
   def call(env)
     request = Rack::Request.new(env)
     if request.path_info == '/time'

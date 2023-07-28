@@ -16,6 +16,5 @@ class App
       [404,{"Content-Type" => "text/plain"}, ["Page not found!\n"]]
     end
   end
-  
 end
 

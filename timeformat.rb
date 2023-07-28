@@ -16,6 +16,7 @@ class TimeFormat
     check_time_response(params['format'])
   end
 
+  
   private
 
   def check_time_response(params)

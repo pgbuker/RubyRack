@@ -3,7 +3,6 @@ require_relative 'timeformat'
 require_relative 'timeformat'
 
 class App
-  
   def call(env)
     request = Rack::Request.new(env)
     if request.path_info == '/time'
@@ -19,7 +18,6 @@ class App
     end
   end
 end
-
 private
 
 def send_response(body, status)

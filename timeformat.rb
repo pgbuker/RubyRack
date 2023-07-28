@@ -12,6 +12,7 @@ class TimeFormat
     @params = params['format'].split(',')
   end
 
+  
   def check_time_response
     @params.each { |format| TIME_FORMATS[format] ? @correct += TIME_FORMATS[format] : @incorrect << format }
   end

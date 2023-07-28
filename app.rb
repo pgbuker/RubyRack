@@ -18,6 +18,7 @@ class App
       send_response("Page not found\n", 404)
     end
   end
+  
 end
 
 private

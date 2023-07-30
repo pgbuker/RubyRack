@@ -16,6 +16,8 @@ class App
     else
       send_response("Page not found\n", 404)
     end
+  else
+    wrong_path
   end
 end
 private

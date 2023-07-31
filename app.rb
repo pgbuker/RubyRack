@@ -1,7 +1,5 @@
 require_relative 'timeformat'
 
-require_relative 'timeformat'
-
 class App
   def call(env)
     request = Rack::Request.new(env)
@@ -16,8 +14,6 @@ class App
     else
       send_response("Page not found\n", 404)
     end
-  else
-    wrong_path
   end
 end
 private

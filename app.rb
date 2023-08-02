@@ -16,6 +16,7 @@ class App
     end
   end
 end
+
 private
 
 def send_response(body, status)

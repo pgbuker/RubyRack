@@ -6,8 +6,7 @@ class TimeFormat
                    'minute' => '%Mm',
                    'second' => '%Ss' }.freeze
 
-     
-    attr_reader: correct, incorrect
+  attr_reader :correct, :incorrect
 
   def initialize(params)
     @correct = ''

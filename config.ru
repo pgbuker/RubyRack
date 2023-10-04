@@ -1,4 +1,4 @@
 require_relative 'app'
 
-# use Runtime
+use Rack::Reloader
 run App.new
